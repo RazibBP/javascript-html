@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div{
+    height: 40px;
+    width: 120px;
+    /* text-align: center; */
+    margin-left: 310px;
+}
+h2{
+    text-align:center;
+    color: #02f29f;
+    /* border: 2px solid #000000; */
+    margin-top: 20px;
+    /* box-shadow: 2px 2px ; */
+    text-shadow: 1px 2px  #000;
+}
+p{
+    margin-bottom: 20px;
+}
+.one{
+   color: #02f29f;
+   padding: 2%;
+   width: 94%;
+   text-align: center;
+}
+
+.two{
+    color: #3919c6;
+    padding: 2%;
+    width: 94%;
+    text-align: center
+}
