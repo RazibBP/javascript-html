@@ -1,0 +1,38 @@
+ul{
+    margin: 0;
+    padding: 0;
+    /* padding-left: 20px; */
+    background-color: aqua;
+    border: 2px solid #aa1111; 
+    padding: 20px;   
+}
+li{
+    list-style: square;
+    list-style-position: inside;
+    background-color: aquamarine;
+    /* list-style-type: georgian; */
+    color: black;
+    padding: 10px;
+    
+}
+button{
+    margin-top: 26px;
+    background-color: tomato;
+    padding: 10px;
+    color: black;
+    font-style:normal;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+button:hover{
+    color: blue;
+    background: #16c3d0;
+    font-size: 27px;
+    font-style: italic;
+}
+button::after{
+    background-color: chartreuse;
+    color: aliceblue;
+
+}
