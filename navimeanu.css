@@ -1,0 +1,63 @@
+#lavel{
+    background-color: #6ab04c;
+    color: #fff;
+    font-family: sans-serif;
+    
+}
+#lavel ul{
+    
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}
+#lavel  li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+#lavel  li a{
+    display: block;
+    padding: 12px 14px;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 34px;
+
+}
+#lavel li a:hover{
+    background: #7ed6df;
+    color: black;
+}
+#lavel ul ul{
+    position: absolute;
+    top: 42px;
+    left: 0;
+    background: #e056fd;
+    width: 200px;
+    text-align: center;
+    display: none;
+    /* padding: 0; */
+
+}
+#lavel ul ul li{
+    display: block;
+}
+#lavel ul ul li a{
+    margin-left: 0;
+}
+
+
+#lavel ul li:hover a{
+    background: #7ed6df;
+}
+#lavel ul li:hover ul{
+    display: block;
+}
+#lavel ul li:hover li a{
+    background: #4834d4
+}
+#lavel ul ul li a:hover{
+    background: #eb4d4b;
+    
+}
+

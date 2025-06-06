@@ -9,15 +9,15 @@
     width: 100%;
     height: 300px;
     display: block;
-    transition: 0.3s;
+    /* transition: 0.3s; */
     /* max-width: 100%; */
     
     
 }
-.child :hover img{
-    transform: scale(0.2);
+/* .child :hover img{
+    transform: scale(0.2); */
 
-}
+/* } */
 .parent{
     padding: 4% 6%;
    
